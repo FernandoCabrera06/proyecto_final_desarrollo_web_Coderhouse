@@ -82,7 +82,7 @@ div {
 
 .banner-container img {
   width: 60%;
-  height: 18rem;
+  height: 90%;
 }
 /* - FIN BANNER - */
 
@@ -199,8 +199,8 @@ footer {
   }
 
   .banner-container img {
-    width: 100%;
-    height: 15rem;
+    width: 90%;
+    height: 90%;
     margin: 0;
   }
 
@@ -225,6 +225,17 @@ footer {
 
   .logo-sitio-container {
     margin: 1rem 1rem 0 2rem;
+  }
+}
+/* ------- Screen ONLY MOBILE ------- */
+@media (max-width: 768px) {
+  .banner-container img {
+    width: 100%;
+    height: 90%;
+  }
+  .banner-container {
+    width: 100%;
+    height: 100%;
   }
 }
 /*--------------------- FIN HOME ---------------------*/
@@ -327,6 +338,9 @@ footer {
   .container-sm {
     max-width: 1100px;
   }
+  #carousel-mobile {
+    display: none;
+  }
 }
 
 /* ------- Screen TABLET AND MOBILE ------- */
@@ -341,6 +355,23 @@ footer {
     max-width: 720px;
   }
 }
+@media (min-width: 768px) {
+  #carousel-mobile {
+    display: none;
+  }
+}
+
+/* ------- Screen ONLY MOBILE ------- */
+@media (max-width: 768px) {
+  #carousel-desktop {
+    display: none;
+  }
+  .container {
+    width: 80%;
+    display: flex;
+    align-self: center;
+  }
+}
 /*--------------------- FIN MARCAS ---------------------*/
 
 /*--------------------- CONTACTO ---------------------*/
@@ -350,6 +381,10 @@ footer {
   display: inline-block;
 }
 
+.mapa iframe {
+  width: 38vw;
+  height: 40vh;
+}
 .mapa-horarios-container {
   margin-top: 3.5rem;
   display: flex;
@@ -421,7 +456,7 @@ footer {
   }
 
   .horarios {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .formulario-container {
@@ -437,6 +472,11 @@ footer {
   .modal-body input,
   .modal-body textarea {
     font-size: 1.2rem;
+  }
+
+  .mapa iframe {
+    width: 80vw;
+    height: 40vh;
   }
 }
 
