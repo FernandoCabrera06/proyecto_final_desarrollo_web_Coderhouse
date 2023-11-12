@@ -136,7 +136,7 @@
   z-index: 2; }
 
 .logo-sitio-container {
-  font-size: 20px;
+  font-size: 1.15rem;
   margin: 1rem 15rem 0 2rem;
   text-align: center;
   font-family: "Gabarito", cursive; }
@@ -171,6 +171,10 @@ div {
   margin-left: 1rem;
   width: 10rem;
   justify-self: end; }
+
+@media (max-width: 768px) {
+  .logo-sitio-container {
+    margin: 1rem 0 0 2rem; } }
 
 footer {
   margin-top: 10%; }
