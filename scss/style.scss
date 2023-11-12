@@ -1,0 +1,19 @@
+@import "fuentes";
+@import "home";
+@import "navbar";
+@import "footer";
+@import "catalogo";
+@import "marcas";
+@import "contacto";
+@import "carrito";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.titulo-principal {
+  margin-top: 12rem;
+  font-size: 3rem;
+  font-family: $titulos_principales;
+  text-align: center;
+}
