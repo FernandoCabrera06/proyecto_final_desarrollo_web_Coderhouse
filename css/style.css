@@ -474,6 +474,18 @@ footer {
   .card-compra-contador {
     align-self: center; } }
 
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column; }
+  .error-container h1 {
+    margin-top: 3rem; }
+  .error-container h2 {
+    margin-top: 3rem; }
+  .error-container img {
+    width: 50%; }
+
 * {
   margin: 0;
   padding: 0; }
