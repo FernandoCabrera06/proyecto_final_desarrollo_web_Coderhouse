@@ -332,6 +332,9 @@ footer {
 .modal-content input {
   padding-left: 0.4rem; }
 
+.modal-email-container {
+  display: none; }
+
 @media (max-width: 991px) {
   .carousel {
     margin-top: 0.2rem; }
