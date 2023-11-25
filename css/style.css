@@ -174,7 +174,8 @@ div {
 
 @media (max-width: 768px) {
   .logo-sitio-container {
-    margin: 1rem 0 0 6rem; } }
+    width: 40%;
+    margin: 1.5rem 0 0 1rem; } }
 
 footer {
   margin-top: 10%; }
@@ -472,7 +473,13 @@ footer {
     padding-left: 1.8rem;
     font-weight: 600; }
   .card-compra-contador {
-    align-self: center; } }
+    align-self: center; }
+    .card-compra-contador button {
+      background-color: #003fa1;
+      color: #ffffff;
+      font-size: 1.2rem; }
+      .card-compra-contador button:hover {
+        background-color: #0557db; } }
 
 .error-container {
   display: flex;

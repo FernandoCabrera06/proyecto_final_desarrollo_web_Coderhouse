@@ -1,5 +1,3 @@
-@import "colores";
-
 .titulo-principal {
   margin-top: 12rem;
 }
@@ -137,5 +135,13 @@
   }
   .card-compra-contador {
     align-self: center;
+    button {
+      background-color: $background-color_1;
+      color: $full_light;
+      font-size: 1.2rem;
+      &:hover {
+        background-color: $background-color_2;
+      }
+    }
   }
 }
