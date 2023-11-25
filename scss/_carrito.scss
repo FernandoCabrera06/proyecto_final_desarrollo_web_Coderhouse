@@ -91,6 +91,13 @@
     padding: 3px 8px;
     font-size: 1rem;
     font-weight: 800;
+    width: 2.2rem;
+    background-color: $background-color_1;
+    color: $full_light;
+    font-size: 1.2rem;
+    &:hover {
+      background-color: $background-color_2;
+    }
   }
   span {
     padding: 4px 8px;
@@ -136,6 +143,7 @@
   .card-compra-contador {
     align-self: center;
     button {
+      width: 2.2rem;
       background-color: $background-color_1;
       color: $full_light;
       font-size: 1.2rem;

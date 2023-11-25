@@ -439,7 +439,13 @@ footer {
   .card-compra-contador button {
     padding: 3px 8px;
     font-size: 1rem;
-    font-weight: 800; }
+    font-weight: 800;
+    width: 2.2rem;
+    background-color: #003fa1;
+    color: #ffffff;
+    font-size: 1.2rem; }
+    .card-compra-contador button:hover {
+      background-color: #0557db; }
   .card-compra-contador span {
     padding: 4px 8px;
     font-size: 1.5rem; }
@@ -475,6 +481,7 @@ footer {
   .card-compra-contador {
     align-self: center; }
     .card-compra-contador button {
+      width: 2.2rem;
       background-color: #003fa1;
       color: #ffffff;
       font-size: 1.2rem; }
